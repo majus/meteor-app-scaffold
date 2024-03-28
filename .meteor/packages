@@ -36,3 +36,11 @@ fetch
 check
 imajus:string-helpers
 littledata:synced-cron
+jagi:astronomy
+jagi:astronomy-timestamp-behavior
+
+# Accounts
+accounts-base
+accounts-password
+imajus:useraccounts-bootstrap4
+useraccounts:flow-routing-extra
