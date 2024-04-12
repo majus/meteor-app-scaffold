@@ -1,7 +1,14 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "module": "commonjs"
+    "module": "commonjs",
+    "paths": {
+      "/*": ["./*"]
+    },
+    "checkJs": true
   },
-  "exclude": ["node_modules", "bower_components"]
+  "exclude": [".meteor", "node_modules", "private", "public"],
+  "typeAcquisition": {
+    "include": ["meteor"]
+  }
 }
